@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-const API_BASE = process.env.LAB_BASE;
+const API_BASE = process.env.REACT_APP_LAB_BASE;
 function WorkingWithArrays() {
   const [errorMessage, setErrorMessage] = useState(null);
   const API = `${API_BASE}/a5/todos`;
