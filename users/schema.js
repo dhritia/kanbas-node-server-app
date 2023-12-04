@@ -11,5 +11,5 @@ const userSchema = new mongoose.Schema({
       enum: ["STUDENT", "FACULTY", "ADMIN", "USER"],
       default: "USER" },
   },
-  { collection: "users" });
+  { collection: "kanbas.users" });
 export default userSchema;
